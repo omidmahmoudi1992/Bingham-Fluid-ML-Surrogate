@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.npz
+outputs_smoke_test/
+data/raw_*.csv
+data/*_raw.csv
