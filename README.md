@@ -48,3 +48,8 @@ Python, NumPy, Pandas, Scikit-learn, Matplotlib, Jupyter Notebook
 ## Reproducibility note (2026)
 
 The notebooks previously uploaded to this repository contain workflow descriptions rather than the original executed code cells. A transparent, runnable reconstruction from newly exported COMSOL data for all eight rheological cases is provided in [`reconstruction_2026/`](reconstruction_2026/). It reports random-row, leave-one-case-out and future-time evaluation separately; the future-time result is intentionally retained as a limitation of the pointwise Random Forest surrogate.
+
+## Orange Data Mining Visual Workflow
+
+A pre-wired, portable **Orange Data Mining (`.ows`)** visual workflow reproducing all three validation protocols, error diagnostics, and unseen-fluid 2D contour predictions is available in [`orange_workflow/`](orange_workflow/).
+
